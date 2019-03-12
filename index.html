@@ -25,8 +25,38 @@
                     do this for all the radiobuttons
                         Make a div at the bottoms of the page under the submit button with an id of SHOWSCORE.
                         Use jQuery ($"#SHOWSCORE").text(CorrectAnswer);-->
+<div class="container">
+    <div class="row">
+        <div class="col">
+
+                                <h2>Radio Buttons</h2>
+
+                        <form>
+                            <p>Pick MALE</p>
+                          <input type="radio" name="gender1" value="male" > Male<br>
+                          <input type="radio" name="gender1" value="female"> Female<br>
+                          <input type="radio" name="gender1" value="other"> Other  
+                        </form>
+                        <form>
+                            <p>Pick FEMALE</p>
+                          <input type="radio" name="gender2" value="male"> Male<br>
+                          <input type="radio" name="gender2" value="female"> Female<br>
+                          <input type="radio" name="gender2" value="other"> Other 
+                        </form>
+                        <form>
+                            <p>pick OTHER</p>
+                          <input type="radio" name="gender3" value="male" > Male<br>
+                          <input type="radio" name="gender3" value="female"> Female<br>
+                          <input type="radio" name="gender3" value="other"> Other 
+                        </form> 
                         
-                        
+                      
+                        <button id="submit">SUBMIT</button>
+                        <div id="howmanycorrect"></div>
+           </div>     
+    </div>
+</div>
+
 
 </head>
 <body>
