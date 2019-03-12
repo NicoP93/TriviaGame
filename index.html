@@ -13,64 +13,24 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         
-        
+        <!--Create a form with input type radio and make 4 questions.
+            Create a submit button.
+            Declare a variable to track the number user got correct
+            Use jQuery to add an onclick event to the button.
+            
+                the event should check if the user got the answers corrects.
+                    if ($('input[name=name_of_your_radiobutton]:checked').val(); = CorrectAnswer) {
+                        userCorrect ++
+                    }
+                    do this for all the radiobuttons
+                        Make a div at the bottoms of the page under the submit button with an id of SHOWSCORE.
+                        Use jQuery ($"#SHOWSCORE").text(CorrectAnswer);-->
+                        
+                        
+
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <h1> Totally Trivial Trivia!</h1>
-                <h2>Time Left: <span id="timer_div"></span>
-                <span id ="time-left"></span>
-                <!-- AAAALLL the content is going go in here -->
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <form id ="quiz" name="quiz">
-                    <p class="QuestionQuestion">What color is the sky</p>
-                    <input type ="radio" id="hm" name="question1" value="Orange">Orange<br><!--Keep the name the same-->
-                    <input type ="radio" id="hm" name="question1" value="Blue">Blue<br><!---->
-                    <input type ="radio" id="hm" name="question1" value="Pink">Pink<br>
-                    <input type ="radio" id="hm" name="question1" value="All of the above">All of the above
-                    <br>
 
-                    <p class="QuestionQuestion">What color is water</p>
-                    <input type ="radio" id="hm" name="question2" value="see through">see through<br><!--Keep the name the same-->
-                    <input type ="radio" id="hm" name="question2" value="Blue">Blue<br><!---->
-                    <input type ="radio" id="hm" name="question2" value="I dunno">I dunno<br>
-                    <input type ="radio" id="hm" name="question2" value="All of the above">All of the above<br>
-                    
-
-                    
-                    <p class="QuestionQuestion">What color is pink</p>
-                    <input type ="radio" id="hm" name="question3" value="Orange">Orange<br><!--Keep the name the same-->
-                    <input type ="radio" id="hm" name="question3" value="Blue">Blue<br><!---->
-                    <input type ="radio" id="hm" name="question3" value="Pink">Pink<br>
-                    <input type ="radio" id="hm" name="question3" value="All of the above">All of the above<br>
-                    
-
-                    <p class="QuestionQuestion">What color is orange?</p>
-                    <input type ="radio" id="hm" name="question4" value="Orange">Orange<br><!--Keep the name the same-->
-                    <input type ="radio" id="hm" name="question4" value="Blue">Blue<br><!---->
-                    <input type ="radio" id="hm" name="question4" value="Pink">Pink<br>
-                    <input type ="radio" id="hm" name="question4" value="All of the above">All of the above<br>
-                    
-
-                    
-                    
-
-                    
-                    <input id="button" type="button" value="All done!" onclick="check();"
-                </form>
-
-                <div id= "after_submit">
-                    <p id="number_correct">Hello Hello</p>
-                </div>
-            </div>
-        </div>
-
-    </div>
 
 
 
