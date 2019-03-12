@@ -5,21 +5,21 @@ $("document").ready(function () {
 
 
   function check() {
-    if ($('input[gender1]:checked').val() = Male) {
+
+    if ($('input[name=gender1]:checked', '#myForm').val() = "male") {
       userCorrect++
     }
-    if ($('input[gender2]:checked').val() = Female) {
+    if ($('input[name=gender2]:checked', '#myForm1').val() = "female") {
       userCorrect++
     }
-    if ($('input[gender3]:checked').val() = Other) {
+    if ($('input[name=gender3]:checked', '#myForm2').val() = "other") {
       userCorrect++
     }
 
-    $("#howmanycorrect").text(userCorrect);
+    $("#Correct").text(userCorrect);
   }
 
-  
+
   $("#submit").click(check());
-
-
+  
 });
