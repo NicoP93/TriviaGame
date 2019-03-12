@@ -1,0 +1,28 @@
+body {
+    background-image: url("../images/90Sbackground.jpg");
+    height: 600px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+}
+
+h1,
+h2 {
+  text-align:center;
+}
+
+#after_submit {
+  visibility: hidden;
+}
+
+.QuestionQuestion {
+  margin-top:40px;
+}
+
+
+.col {
+ 
+  background-color:rgb(173, 139, 173);
+}
+
+
+
