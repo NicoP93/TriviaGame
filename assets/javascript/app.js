@@ -56,7 +56,7 @@ $('#start').on('click', function(){
     }
 })
 
-
+//the actual quizz
 function generateQuiz(){
     $('#start').hide();
     $('#quiz').show();
